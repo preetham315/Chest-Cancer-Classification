@@ -5,10 +5,10 @@ import os
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
 
 from cnnClassifier import logger
-from cnnClassifier.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
-from cnnClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
-from cnnClassifier.pipeline.stage_03_model_trainer import ModelTrainingPipeline
-from cnnClassifier.pipeline.stage_04_model_evaluation import EvaluationPipeline
+from cnnClassifier.pipeline.s1_data_ingestion import DataIngestionTrainingPipeline
+from cnnClassifier.pipeline.s2_base_model import PrepareBaseModelTrainingPipeline
+from cnnClassifier.pipeline.s3_model_trainer import ModelTrainingPipeline
+from cnnClassifier.pipeline.s4_model_evaluation import EvaluationPipeline
 
 
 
